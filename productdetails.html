@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bathan- eCommerce Website</title>
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+<!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over - Rs.5,000/-
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+          <div class="header-alert-news">
+            <h5>Appointments</h5>
+
+          </div>
+
+          <select name="Appointments">
+
+            <option value="phone-number">123456789 </option>
+            <option value="phone-number">123456789</option>
+
+          </select>
+
+          <!--<select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Espa&ntilde;ol</option>
+            <option value="fr">Fran&ccedil;ais</option>
+
+          </select> -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        
+
+        <!-- <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div> -->
+
+        <!-- <form class="search-box-me">
+          <button style="background: none; border: none; padding: 0"><span style="font-size: 30px; vertical-align: -1px; color: #9B9B9B" class="material-symbols-outlined">search</span></button>
+          <input style="vertical-align: 4px; width: 255px;" type="search" name="focus" placeholder="Search" id="search-input" value="">
+        </form> -->
+
+        <form action="/search">
+          <div class="search-box-me">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="fa fa-magnifying-glass"></i></button>
+          </div>
+        </form>
+
+
+        <a href="#" class="header-logo">
+          <!-- <img src="./assets/images/logo/logo.svg" alt="Bathan's logo" width="120" height="36"> -->
+          <h1 class="bathan-logo">Bathan</h1>
+        </a>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">New</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="http://127.0.0.1:5503/bestsellers.html" class="menu-title">Bestsellers</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Custom/cloud tailor</a>
+          </li>
+        
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Suitsets/kurta sets</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Dress & Frock</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Makeup Kit</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Lounge wear</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Couple Rings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bracelets</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">kids</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Clothes Perfume</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deodorant</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Flower Fragrance</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Air Freshener</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">lingerie</a>
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Couple Rings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bracelets</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">home furnishing</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Bestsellers</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shirt</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shorts & Jeans</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Safety Shoes</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Wallet</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">custom/cloud tailor </p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dress & Frock</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Makeup Kit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Suit Sets/Kurta sets</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Couple Rings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bracelets</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Lounge Wear</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Flower Fragrance</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Kids</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">lingerie</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home furnishing</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Fren&ccedil;h</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">EUR &euro;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+<!-- 
+  ----------------------------
+  PRODUCT DETAILS---
+  ------------------------ -->
+
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/919654591526" target="_blank"><i class="fa-brands fa-square-whatsapp" style="color: 3FBE4F;" width="50px" class="whatsapp-float-btn"></i></a> 
+ </div>
+ 
+ <section id="prod-details" class="section-p1">
+     <!-- <div class="images-container"> -->
+     <div class="small-image-group">
+         <div class="small-image-col">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/14_d1dc6190-bafc-4ef5-b032-254782583c94_720x.jpg?v=1669029849"
+                 width="100%" class="prod-small-image" alt="">
+         </div>
+         <div class="small-image-col">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/16_bee9fb2c-655f-4601-991a-b7d08496b01b_1800x1800.jpg?v=1669032521"
+                 width="100%" class="prod-small-image" alt="">
+         </div>
+         <div class="small-image-col">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/19_d24d221e-7618-404f-930b-22ac12f03547_720x.jpg?v=1669029847"
+                 width="100%" class="prod-small-image" alt="">
+         </div>
+         <div class="small-image-col">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/19_d24d221e-7618-404f-930b-22ac12f03547_720x.jpg?v=1669029847"
+                 width="100%" class="prod-small-image" alt="">
+         </div>
+     </div>
+
+
+     <div class="single-prod-image">
+         <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/14_d1dc6190-bafc-4ef5-b032-254782583c94_720x.jpg?v=1669029849"
+             width="95%" id="MainImage" alt="">
+     </div>
+
+     <!-- </div> -->
+
+
+
+     <div class="single-pro-details">
+         <!-- <h1>SAMYUKTA CHANDERI GOTAPATTI SHARARA SET</h1>
+         <p>8,549.00</p>
+         <p>Save 450.00</p>
+         <p>Tax included. Shipping calculated at checkout.</p>
+         <h2>$54</h2> -->
+         <div class="product-block product-block--header product-page-heading">
+             <!-- <h1 class="h2 product-single__title">Samyukta Chanderi Gotapatti Sharara Set
+             </h1> -->
+             <h1 class="heading-prod-sec-two"> Samyukta Chanderi Gotapatti Sharara Set</h1>
+             <div style="display: none;"
+                 class="jdgm-widget jdgm-preview-badge jdgm-preview-badge--with-link jdgm--done-setup"
+                 data-id="6903099752514" data-template="product" data-auto-install="false">
+                 <div style="display:none" class="jdgm-prev-badge" data-average-rating="0.00"
+                     data-number-of-reviews="0" data-number-of-questions="0"> <span class="jdgm-prev-badge__stars"
+                         data-score="0.00" tabindex="0" aria-label="0.00 stars" role="button"> <span
+                             class="jdgm-star jdgm--off"></span><span class="jdgm-star jdgm--off"></span><span
+                             class="jdgm-star jdgm--off"></span><span class="jdgm-star jdgm--off"></span><span
+                             class="jdgm-star jdgm--off"></span> </span> <span class="jdgm-prev-badge__text">No
+                         reviews</span> </div>
+             </div>
+
+         </div>
+
+         <!-- <div class="product-block product-block--price">
+             <span data-product-price="" class="product__price on-sale"><span class="money">8,549.00</span><br>
+             </span><span data-a11y-price="" class="visually-hidden" aria-hidden="false">
+                 Regular price
+             </span><br>
+             <span data-product-price-wrap="" class="">
+                 <span data-compare-price="" class="product__price product__price--compare"><span
+                         class="money">8,999.00</span>
+                 </span>
+             </span>
+             <span data-compare-price-a11y="" class="visually-hidden">Sale price</span><br>
+             <span class="p-off-tag">
+                 5% off
+             </span><br>
+
+             <span data-save-price="" class="save-amount product__price-savings">Save <span
+                     class="money">450.00</span>
+             </span>
+             <div data-unit-price-wrapper="" class="product__unit-price product__unit-price--spacing  hide"><span
+                     data-unit-price=""></span><span data-unit-base=""></span>
+             </div>
+             <div class="product__policies rte small--text-center">Tax included.
+                 <a href="/policies/shipping-policy">Shipping</a> calculated at checkout.
+             </div>
+         </div> -->
+
+
+         <div class="product-subheading">
+             <span class="price-prod">8,549.00</span>
+             <span class="per-off">5% off</span><br>
+             <span class="save-prod">Save 450.00</span><br>
+             <span class="tax-prod">Tax included. Shipping calculated at checkout.</span>
+         </div>
+
+         <div class="pink-box">
+             <span class="offer-price">PREPAID OFFER PRICE</span> <br>
+             <span class="pink-price">7,694.10</span>
+             <p class="get-off">Avail 10% OFF Only on Prepaid Orders (Auto Calculated at <br> Checkout)</p>
+         </div>
+
+
+         <!-- ----------------------
+         CUSTOMISE name--
+         -------------------- -->
+     <div class="cust-section">
+         <h5 class="cust-head">Chose a part to get your name INSCRIBED</h5>
+         <div class="cust-container">
+             
+             <div class="cust-card">
+                 <img src="https://setmywed.com/blog/wp-content/uploads/2022/07/b5a5054a5e793349eab43c5bbc3cce57-e1659009082416.jpg" alt="">
+                 <span class="cust-text">Collar</span>
+             </div>
+
+             <div class="cust-card">
+                 <img src="https://setmywed.com/blog/wp-content/uploads/2022/07/b5a5054a5e793349eab43c5bbc3cce57-e1659009082416.jpg" alt="">
+                 <span class="cust-text">Collar</span>
+             </div>
+
+             <div class="cust-card">
+                 <img src="https://setmywed.com/blog/wp-content/uploads/2022/07/b5a5054a5e793349eab43c5bbc3cce57-e1659009082416.jpg" alt="">
+                 <span class="cust-text">Collar</span>
+             </div>
+         </div>
+
+         <label for="name">Enter Your Name:</label>
+         <form class="submit">
+                   <!-- <label for="name">Enter Your Name:</label> -->
+                   <input type="text" id="cust-name" name="name" placeholder="Ex- Shruti Gupta"><br><br>
+             <!--       <label for="email">Email:</label>
+                   <input type="email" id="email" name="email"><br><br> -->
+                   <input type="button" id="cust-button" value="Submit" onclick="submitForm()">
+         </form>
+
+     </div>
+         
+
+         
+
+
+
+
+         <!-- BUTTON GROUP -->
+
+         <div class="quantity-prod">
+             <span class="quant-head">Quantity</span>
+             <div class="d-flex flex-row justify-content-between align-items-center ">
+                 <div class="d-flex flex-row align-self-center product_data" id="qty_select">
+                     <input type="hidden" value=" 1 " class="prod_id">
+                     <div class="input-group text-center" id="qty_selector">
+                         <a class="decrement-btn">
+                             <i class="fa fa-minus" style="padding-left:9px"></i>
+                         </a>
+                         <input type="text" readonly="readonly" id="qty_display" class="qty-input text-center"
+                             value="1" />
+                         <a class="increment-btn">
+                             <i class="fa-thin fa-plus"></i>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+
+         <!-- 
+         -------------------
+         SIZE-CHART-
+         ----------------- -->
+
+         <div class="size-bar">
+             <span class="size-prod">size:</span>
+             <div class="sizes">
+                 <span class="size active" data-size="S">XS</span>
+                 <span class="size" data-size="M">S</span>
+                 <span class="size" data-size="M">M</span>
+                 <span class="size" data-size="L">L</span>
+                 <span class="size" data-size="XL">XL</span>
+                 <span class="size" data-size="XXL">XXL</span>
+                 <span class="size" data-size="XXL">XXXL</span>
+                 <span class="size" data-size="XXL">4XL</span>
+                 <span class="size" data-size="XXL">5XL</span>
+
+             </div>
+         </div>
+
+
+         <!-- -----------------
+     ADD TO CART----------
+     -------------------------------- -->
+         <div class="add-to-cart-container">
+             <button class="wishlist-btn">
+                 <i class="fa fa-heart"></i>
+             </button>
+             <button class="add-to-cart-btn">Add to Cart</button>
+         </div>
+
+
+
+         <!-- <select>
+             <option>Select size</option>
+             <option>M</option>
+             <option>S</option>
+             <option>L</option>
+         </select>
+         <input typ="number" value="1">
+         <button>Add to cart</button>
+         <h4>Product Details</h4>
+         <span>lerewfhsjkfhksfhdsfds sdkfhsdkjfhbdsk dsmfbdskjbskfhuidahawdbnnoisdhfsa</span> -->
+
+
+         <!-- <div class="product-block product-block--sales-point">
+             <ul class="sales-points">
+                 <li class="sales-point">
+                     <span class="icon-and-text">
+                         <i class="fa fa-globe"></i>
+                         <span>Worldwide Shipping</span>
+                     </span>
+                 </li>
+             </ul>
+         </div> -->
+         <!-- 
+         -----------------
+         ACCORDIAN--
+         ---------------------- -->
+
+
+         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+         <div class="container-accordian">
+             <!--   <h1>Simple Accordions</h1> -->
+
+             <button class="accordion">
+                 DESCRIPTION</button>
+             <div class="accordion-content">
+                 <p>The millenial star Sanjana Sanghi looks like a goddess in our Vairea Chanderi Suit Set. The
+                     timeless anarkali cut matched with the refreshing new shade of green, this style is everything a
+                     millenial wants in ethnic ensembles --- chill, cheerful, and charming. Take style inspiration
+                     from Sanjana and pick this for your next festive outing.</p>
+                 <p>&nbsp;</p>
+                 <p>Color: Teal Blue<br>Suit Set Fabric: Chanderi/Cotton<br>Dupatta Fabric: Chanderi<br><br>Neckline:
+                     Sweetheart<br>Sleeve: Sleeveless<br>Handcrafted: Gota Work<br>CARE: Dry Clean Only<br>Model
+                     Size: Model is wearing S Size<br>Model Height: 5'4"<br><br>DISCLAIMER: Slight Colour variations
+                     may occur due to different screen resolutions.</p>
+             </div>
+
+             <button class="accordion">SHIPPING INFORMATION</button>
+             <div class="accordion-content">
+                 <p>We endeavor to provide a pleasant and zero-hassle shopping experience for you. All our policies
+                     and terms of use are crafted to ensure ease of purchase and support. We request you to
+                     thoroughly review them and make informed purchases.</p>
+                 <p>We at Aachho, understand the importance of delivering your products timely and safely. Therefore,
+                     we partner with some of the most reputed Indian and international courier partners such as
+                     Bluedart, Delhivery, DHL, Aramex, etc., to ensure seamless delivery of all orders.</p>
+                 <h2>Domestic &amp; International Shipping</h2>
+                 <ul>
+                     <li>
+                         <p><b>Charges:</b> Aachho offers FREE SHIPPING ACROSS INDIA for all orders, prepaid as well
+                             as cash on delivery (COD). For orders from outside India, additional shipping fees is
+                             charged per kg and the total shipping charges depend on the weight of the total order
+                             parcel which is calculated at the time of checkout.</p>
+                     </li>
+                     <li>
+                         <p><b>Tax and duties:</b> Please note that many countries charge varied import duties,
+                             customs charges and taxes on shipped items. All such additional charges are to be
+                             directly borne by the customer upon delivery. Hence, it is advisable to check your
+                             country’s taxes policies before placing an order with us because, once the order is
+                             placed, we do not offer returns or cancellations for international orders.</p>
+                         <p>If the customer does not accept or does not pay any such customs charges for their
+                             international orders, under any circumstances, we shall not be liable for product
+                             exchanges/returns or payment refunds.</p>
+                     </li>
+                     <li>
+                         <p><b>Timelines:</b> As all our outfits are handcrafted, it takes us 15-20 working days from
+                             the date of order placement to dispatch domestic as well as international orders.</p>
+                         <p>There may be an extra 10-15 day delay in order dispatch due to volume orders during
+                             season time, festivals, and sometimes due to any unforeseen and avoidable circumstances
+                             such as political unrest, public curfews, containment zones, etc. In such cases, our
+                             team shall inform you about the delay via mail or call.</p>
+                     </li>
+                     <li>
+                         <p><b>Receiving Order Guidelines:</b> As we ship your orders via third-party shipment
+                             agencies, we want to ensure that the parcel reaches you intact and in good condition.
+                             Therefore, in case you receive a damaged, broken, or opened parcel, we request you to
+                             record a video and take images of the same and not accept the order. You can mail all
+                             the images and videos along with the order number so that we can use the same to resolve
+                             the issue for you at the earliest and settle claims with the shipment agency.</p>
+                     </li>
+                     <li>
+                         <p><b>Process:</b> Once you have placed an order on our website, our system puts your order
+                             into the process. Once the order is processed and your outfit(s) is out from the
+                             manufacturing unit, the ordered item(s) are passed through multi-level quality checks.
+                             Your item is packed securely and handed over to our trusted delivery partners. After the
+                             order is dispatched, a unique tracking identity number is sent to you on your registered
+                             email &amp; mobile number via SMS. You can track the status of the order delivery on the
+                             courier partner’s official website using the tracking number.</p>
+                     </li>
+                 </ul>
+                 <h2>Payment Policy</h2>
+                 <ul>
+                     <li>
+                         <p><b>Worldwide shipping:</b> We ship to 220+ destinations across the world. You can check
+                             the shipping eligibility in your city/country at the time of the order checkout.</p>
+                     </li>
+                     <li>
+                         <p><b>Prepaid &amp; COD orders:</b> Prepaid and COD orders are eligible for cancellation
+                             only within 24 hours of order placement. To cancel your order you can mail your
+                             cancellation request to us at <a href="mailto:support@aachho.com">support@aachho.com</a>
+                             or you can call us on our customer support number, +91-9001888987 from Monday to
+                             Saturday. (10:00 am till 6:00 pm)</p>
+                     </li>
+                     <li>
+                         <p><b>Payment options:</b> We have multiple payment options available for you to choose from
+                             – major debit &amp; credit cards, net banking options, recognized eWallets and UPI. We
+                             also offer Cash on Delivery option for domestic orders. Please note that we offer the
+                             Cash on Delivery option for a maximum of ₹10,000 total order value.</p>
+                         <p>For orders outside India, we only offer prepaid payment options and accept all major
+                             Mastercard, American Express, and Visa cards along with recognized payment gateways such
+                             as PayPal and PayU.</p>
+                     </li>
+                     <li>
+                         <p><b>Credit note usage:</b> If you are issued any credit note, you shall receive it on your
+                             registered email ID. It can be applied only once on our official website and
+                             within&nbsp;3 months from the date of issue.</p>
+                     </li>
+                 </ul>
+             </div>
+
+             <!--   <button class="accordion">Digital Marketing</button> -->
+             <!--   <div class="accordion-content">
+ <p>
+   We know that every great website focuses on helping you get more business and building a brand that your ideal customers will love and support. We can help you set up a great, SEO-focused content strategy, a paid ads campaign, email marketing integration with Mailchimp as well as a social media marketing campaign. We also use popular website analytic tools to track your site's performance and provide you with weekly analytic reports to help bolster your growth.
+ </p>
+</div> -->
+         </div>
+
+
+
+
+         <!-- -----------------
+         social links in product section 2--
+         ----------------- -->
+
+
+     </div>
+ </section>
+
+
+
+
+
+
+ <!-- ----------------------
+ SIMILAR PRODUCT SECTIONS-- YMAL-you may also like
+ ------------------------ -->
+
+ 
+
+
+ <section id="ymal" class="ymal-products">
+     <h5 class="prod-head">YOU MAY ALSO LIKE</h5>
+     <div class="ymal-prod-container">
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+             </div>
+            
+         </div>
+         
+
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+             </div>
+            
+         </div>
+
+
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+             </div>
+            
+         </div>
+
+
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+             </div>
+            
+         </div>
+
+         
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+             </div>
+            
+         </div>
+     </div>
+ </section>
+
+
+<!-- 
+ -------------------
+ BESTSRELLERS GRID--
+ ------------ -->
+ <section id="bestseller-grid-me" class="best-products">
+     <!-- <div class="best-button"></div> -->
+     <h2 id="best-head-grid" class="best-heading">BESTSELLERS</h2>
+     <div class="best-prod-container">
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span class="best-review">23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+
+
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+         
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+             </div>
+         </div>
+
+
+         <div class="best-cards">
+             <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/48_16e48e72-8290-41b0-a465-70d9bc1c1f21_720x.png?v=1633335375" alt="">
+             <div class="best-description">
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="best-prod-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+
+                 </div>
+                 <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <span>23 reviews</span>
+                 </div>
+
+
+             </div>
+         </div>
+     </div>
+     
+ </section>
+
+
+
+ <!-- ----------------------
+ RECENTLY VIEWED------
+ ---------------- -->
+ 
+ <section id="ymal" class="ymal-products">
+     <h5 class="prod-head" >RECENTLY VIEWED</h5>
+     <div class="ymal-prod-container">
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <!-- <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div> -->
+             </div>
+            
+         </div>
+         
+
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <!-- <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div> -->
+             </div>
+            
+         </div>
+
+
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <!-- <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div> -->
+             </div>
+            
+         </div>
+
+
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <!-- <img class="ymal-image-next" src="images/item3.png" alt=""> -->
+             
+             <!-- <div class="ymal-description">
+                 <span>ZIYA CHANDERI SUIT SET</span>
+                 <span class="price-ymal">8,543</span>
+                 <span class="money">8,999.00</span>
+             </div> -->
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <!-- <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div> -->
+             </div>
+            
+         </div>
+
+         
+
+         <div class="ymal-cards">
+             <img class="ymal-image-first" src="https://cdn.shopify.com/s/files/1/2542/7564/products/18_c73972de-e120-4563-9e2a-f2473513d71c_720x.jpg?v=1669032521" alt="">
+             <div class="ymal-description">
+
+                 <h5 class="ymal-heading">Vairea Chanderi Suit Set</h5>
+                 <div class="ymal-product-price">
+                     <span class="ymal-money">8,549.00</span>
+                     <span class="visually-hidden">Regular price</span>
+                     <span class="grid-product-price-original"><span class="ymal-money" ><del>8,999.00</del></span><br>
+                     <span class="visually-hidden">Sale price</span><span class="ymal-savings">
+                         5% Off</span>
+                 </div>
+                 <!-- <div class="rating-star-ymal">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div> -->
+             </div>
+            
+         </div>
+     </div>
+ </section>
+ 
+
+
+
+
+ <!--
+    - FOOTER
+  -->
+
+
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Fashion :</h3>
+
+          <a href="#" class="footer-category-link">T-shirt</a>
+          <a href="#" class="footer-category-link">Shirts</a>
+          <a href="#" class="footer-category-link">shorts & jeans</a>
+          <a href="#" class="footer-category-link">jacket</a>
+          <a href="#" class="footer-category-link">dress & frock</a>
+          <a href="#" class="footer-category-link">innerwear</a>
+          <a href="#" class="footer-category-link">hosiery</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">footwear :</h3>
+        
+          <a href="#" class="footer-category-link">sport</a>
+          <a href="#" class="footer-category-link">formal</a>
+          <a href="#" class="footer-category-link">Boots</a>
+          <a href="#" class="footer-category-link">casual</a>
+          <a href="#" class="footer-category-link">cowboy shoes</a>
+          <a href="#" class="footer-category-link">safety shoes</a>
+          <a href="#" class="footer-category-link">Party wear shoes</a>
+          <a href="#" class="footer-category-link">Branded</a>
+          <a href="#" class="footer-category-link">Firstcopy</a>
+          <a href="#" class="footer-category-link">Long shoes</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">jewellery :</h3>
+        
+          <a href="#" class="footer-category-link">Necklace</a>
+          <a href="#" class="footer-category-link">Earrings</a>
+          <a href="#" class="footer-category-link">Couple rings</a>
+          <a href="#" class="footer-category-link">Pendants</a>
+          <a href="#" class="footer-category-link">Crystal</a>
+          <a href="#" class="footer-category-link">Bangles</a>
+          <a href="#" class="footer-category-link">bracelets</a>
+          <a href="#" class="footer-category-link">nosepin</a>
+          <a href="#" class="footer-category-link">chain</a>
+          <a href="#" class="footer-category-link">Earrings</a>
+          <a href="#" class="footer-category-link">Couple rings</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">cosmetics :</h3>
+        
+          <a href="#" class="footer-category-link">Shampoo</a>
+          <a href="#" class="footer-category-link">Bodywash</a>
+          <a href="#" class="footer-category-link">Facewash</a>
+          <a href="#" class="footer-category-link">makeup kit</a>
+          <a href="#" class="footer-category-link">liner</a>
+          <a href="#" class="footer-category-link">lipstick</a>
+          <a href="#" class="footer-category-link">prefume</a>
+          <a href="#" class="footer-category-link">Body soap</a>
+          <a href="#" class="footer-category-link">scrub</a>
+          <a href="#" class="footer-category-link">hair gel</a>
+          <a href="#" class="footer-category-link">hair colors</a>
+          <a href="#" class="footer-category-link">hair dye</a>
+          <a href="#" class="footer-category-link">sunscreen</a>
+          <a href="#" class="footer-category-link">skin loson</a>
+          <a href="#" class="footer-category-link">liner</a>
+          <a href="#" class="footer-category-link">lipstick</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Fashion</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Electronic</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Cosmetic</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Health</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Watches</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              419 State 414 Rte
+              Beaver Dams, New York(NY), 14812, USA
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+          </li>
+          <ul class="footer-social-container">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+          
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        Copyright &copy; <a href="#">Bathan</a> all rights reserved.
+      </p>
+
+    <!-- </div> -->
+
+  </div>
+
+</footer>
+
+
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
